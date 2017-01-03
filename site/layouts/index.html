@@ -17,6 +17,30 @@
   ga('send', 'pageview');
 
 </script>
+<!-- Start of Async Drift Code -->
+<script>
+!function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+  t.factory = function(e) {
+    return function() {
+      var n;
+      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    };
+  }, t.methods.forEach(function(e) {
+    t[e] = t.factory(e);
+  }), t.load = function(t) {
+    var e, n, o, i;
+    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('iz8h9a9mscv9');
+</script>
+<!-- End of Async Drift Code -->
 </head>
 <body>
 	<div class="hstcover">
@@ -41,15 +65,17 @@
 		    </ul>
 			</div>
 
-			<a href="#services"><h3>Services</h3></a>
-			<a href="#contact"><h3>Contact</h3></a>
-			<a href="#blog"><h3>Blog</h3></a>
+			<a href="#services"><h4>Services</h3></a>
+			<a href="#contact"><h4>About</h3></a>
+			<a href="#blog"><h4>Blog</h3></a>
 
 				<ul>
-<!-- 				<li>Show an exerpt from my blog</li>
-				<li>Add overlay on flex items, Find out More / Typical convo</li>
+<!-- 						
 				<li>Add Drift</li>
-				<li>Add responsive menu slideout</li> -->
+				<li>Configure Blog Settings. Show an exerpt from my blog on large screens</li>
+				<li>Add overlay on service flex items: "Find out More / Typical convo"</li>
+				<li>Add responsive menu slideout</li> 
+-->
 				</ul>
 			</div>
 			</div>
@@ -113,6 +139,9 @@
 		</main>
 		<footer class="small_centered">
 			<div id="contact" class="hst_flex_item">
+				<article>
+					
+				</article>
 				<!-- <a href="mailto:ntharani+inboundHomePage@gmail.com?subject=New%20Project%20Enquiries%20or%20Saying%20Hello!">&nbsp;Say Hello</a> -->
 			</div>
 		</footer>

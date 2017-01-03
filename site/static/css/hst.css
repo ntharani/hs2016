@@ -8,7 +8,9 @@ a {
 }
 
 p {
+  -webkit-hyphens: auto;
   hyphens: auto;
+
 }
 
 .hstcover {
