@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Strata</title>
+    <link>/post/index.xml</link>
+    <description>Recent content in Posts on Strata</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Nov 2016 14:24:59 -0800</lastBuildDate>
+    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>first</title>
+      <link>/post/first/</link>
+      <pubDate>Tue, 29 Nov 2016 14:24:59 -0800</pubDate>
+      
+      <guid>/post/first/</guid>
+      <description>&lt;p&gt;“Peace of mind produces right values, right values produce right thoughts. Right thoughts produce right actions and right actions produce work which will be a material reflection for others to see of the serenity at the center of it all.”
+― Robert M. Pirsig, Zen and the Art of Motorcycle Maintenance&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
