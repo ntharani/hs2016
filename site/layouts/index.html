@@ -1,97 +1,47 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/4.1.0/sanitize.css" integrity="sha256-NhpnMp6kAUqWcsM+ZeDWW3n1JAEXaSLKGvhIU4qzu7s=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/hst.css" type="text/css" media="screen,projection"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
-  <script src="//load.sumome.com/" data-sumo-site-id="ed9fcee42abaef51c15b2cee732e284f745d75d9574904f2d8e3cdd7ec9a1ff9" async="async"></script>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+{{ partial "header.html" . }}
 
-  ga('create', 'UA-89741559-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<!-- Start of Async Drift Code -->
-<script>
-!function() {
-  var t;
-  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
-  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-  t.factory = function(e) {
-    return function() {
-      var n;
-      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-    };
-  }, t.methods.forEach(function(e) {
-    t[e] = t.factory(e);
-  }), t.load = function(t) {
-    var e, n, o, i;
-    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
-    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
-    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-  });
-}();
-drift.SNIPPET_VERSION = '0.3.1';
-drift.load('iz8h9a9mscv9');
-</script>
-<!-- End of Async Drift Code -->
-</head>
 <body>
-	<div class="hstcover">
-	<div class="content-wrapper">
-		<header class="small_centered">
-			<div class="hst_flex_item">
-			<div>
+	<div class="parent-container2">
+	<div class="parent-container-wrapper">
+	<div class="container">
+		<header>
 				<h1> Nagib Tharani </h1>
 				<h3>(Polyglot Business Operations)</h3>
 				<p>Welcome. I'm an engineer by training but have worn many hats.</p>
-				<div class="footer-social-icons">
-		    	<ul class="social-icons">
-		        <li><a href="https://www.facebook.com/nagib.tharani" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
-		        <li><a href="https://twitter.com/nagibtharani" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
-		        <li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
-		        <li><a href="https://www.instagram.com/ntharani/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
-		      
-		        <li><a href="https://gitlab.com/ntharani" class="social-icon"> <i class="fa fa-gitlab"></i></a></li>
-		        <li><a href="https://github.com/ntharani" class="social-icon"> <i class="fa fa-github"></i></a></li>
-		      <li><a href="https://www.linkedin.com/in/ntharani" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-		        <li><a href="google.com/+NagibTharani" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
-		    </ul>
-			</div>
 
 			<a href="#services"><h4>Services</h3></a>
-			<a href="#contact"><h4>About</h3></a>
+			<a href="/about"><h4>About</h3></a>
 			<a href="#blog"><h4>Blog</h3></a>
+
+			{{ partial "social.html" . }}
 
 				<ul>
 <!-- 						
-				<li>Add Drift</li>
-				<li>Configure Blog Settings. Show an exerpt from my blog on large screens</li>
+				<li>Configure Blog Settings and first blog post - Hugo in 2017</li>
+				<li>Show exerpt from blog on large screen via a media query</li>
+				<li> Put about me story on</li>
 				<li>Add overlay on service flex items: "Find out More / Typical convo"</li>
 				<li>Add responsive menu slideout</li> 
 -->
 				</ul>
-			</div>
-			</div>
+		<div class="mouse"><span></span></div>
 		</header>
-		 <div class="mouse">
-        <span></span>
-    </div>
+
 	</div>
 	</div>
-		<main class="small_centered">
+	</div>
+
+	<div class="parent-container">
+		<div class="container">
+			<main class="">
 
 			<div id="services" class="hst_flex_item">
 			<div>
 				<div class="hst_flex_row_item_content">
 					<h2>International Expansion</h2>
-					<p>Global expansion tailored for your business. Whether B2C, B2B or Enterprise. I have worked with inward investment teams at IDA Ireland, UKTi, Invest-HK, DFAIT &amp; AusTrade in particular. I leverage local government resources where appropriate. I have visted and worked in over 30 countries.</p>		
+					<p>Global expansion tailored for your business. Whether B2C, B2B or Enterprise. I have worked with inward investment teams at IDA Ireland, UKTi, Invest-HK, DFAIT &amp; AusTrade. I leverage local government resources where appropriate.</p>		
 					<!-- <h6>Find out more</h6> -->
 				</div>
 			</div>
@@ -99,7 +49,7 @@ drift.load('iz8h9a9mscv9');
 			<div>
 				<div class="hst_flex_row_item_content">
 					<h2>Business Development</h2>
-					<p>Greenfield Sales, Channel &amp; Strategic Partnerships where no playbook or template exists. Where repeatable, I create the process before handover to a sales team, if one exists. </p>
+					<p>Greenfield Sales and setup of Channel &amp; Strategic Partnerships where no playbook or template exists. Where repeatable, I create the process before handover to a sales/AE/SDR team. </p>
 					<!-- <h6>Footer</h6>			 -->
 				</div>
 			</div>
@@ -107,7 +57,7 @@ drift.load('iz8h9a9mscv9');
 			<div>
 				<div class="hst_flex_row_item_content">
 					<h2>Business Operations</h2>
-					<p>Company infrastructure &amp; governance for both greenfield startups to international subsidiaries. Where appropriate I engage specialist tax, legal and regulatory help. I write your v1.0 executive and employee handbooks: From departmental logistics and tooling for reporting, CRM, bookkeeping, support and everything in between) to employee guidance covering expense policies, vacation, culture and benefits. I am heavily biased towards SaaS based tools.</p>
+					<p>Company infrastructure &amp; governance for both greenfield startups to international subsidiaries. Where appropriate I engage specialist tax, legal and regulatory help. I write your v1.0 executive and employee handbooks: From hiring and departmental logistics and tooling, management reporting, CRM, bookkeeping, support and everything along the way. On the staff side, I provide guidance covering expense policies, vacation, culture and benefits. I am heavily biased towards SaaS based tools.</p>
 					<!-- <h6>Footer</h6> -->
 				</div>
 			</div>
@@ -137,13 +87,9 @@ drift.load('iz8h9a9mscv9');
 			</div>
 			</div>
 		</main>
-		<footer class="small_centered">
-			<div id="contact" class="hst_flex_item">
-				<article>
-					
-				</article>
-				<!-- <a href="mailto:ntharani+inboundHomePage@gmail.com?subject=New%20Project%20Enquiries%20or%20Saying%20Hello!">&nbsp;Say Hello</a> -->
-			</div>
-		</footer>
+
+		</div>
+	</div>
+
 </body>
 </html>

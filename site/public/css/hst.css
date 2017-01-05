@@ -1,39 +1,259 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
 body {
-  color: white;
- }
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    background: #322f30;
+    -webkit-font-smoothing: antialiased;
+}
+
+nav, header, main, footer {
+  padding: 0 10px;
+}
+
+header {
+  /* background: purple; */
+}
+
+main {
+  /* background: yellow; */
+  flex: 1 0 auto;
+}
+
+footer {
+  /* background: orange; */
+}
+
+/* BG DIVs, Opacity Container Wrapper & Scroll Down for More */
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  /* min-height: 100vh; */
+}
+
+.parent-container2 {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  min-height: 100vh;
+  background: url('../images/sdesk.jpg');
+  /* background-attachment: fixed; breaks on IOS :( */
+  background-size: cover;
+
+}
+
+.parent-container-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  background:rgba(159,  182,  205, 0.8);
+  width:100%;
+  height:100%;
+  padding:0;
+  margin:0;
+  padding:0;
+  min-height:100vh;
+}
+
+
+.mouse {
+  display: block;
+  margin: 0 auto;
+  width: 26px;
+  height: 46px;
+  border-radius: 13px;
+  border: 2px solid white;
+  bottom: 40px;
+  position: absolute;
+  left: 50%;
+  margin-left: -14px;
+}
+  
+
+ .mouse span {
+    display: block;
+    margin: 6px auto;
+    width: 2px;
+    height: 2px;
+    border-radius: 4px;
+    background: white;
+    border: 1px solid transparent;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: scroll;
+    animation-name: scroll;
+  }
+
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+}
+
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+}
+
+  
+/* Responsive Containers */
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  align-items: stretch;
+}
+
+@media all and (min-width: 60em) {
+  .container { flex: 0 0 80%; /* background: #e3c; */ }
+}
+
+@media all and (min-width: 40.1em) and (max-width: 59.9em) {
+  .container { flex: 0 0 90%; /* background: #ccc; */ }
+}
+
+@media all and (max-width: 40em) {
+  .container { flex: 0 0 95%; /* background: #2c2; */ }
+}
+
+/* Social Stuff */
 
 a {
-  text-decoration: none;
-  color:  white;
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
 }
 
-.hstcover {
-  /* background: linear-gradient(to bottom, #3f4c6b 0%,#3f4c6b 100%); */
-  /* NB: For file URLs, note this is relative to the path. 
-  Hugo doesn't parse variables in CSS! */
-  background: url('../images/sdesk.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  height:100vh;
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 100%;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    /* background-color: #322f30; */
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    /* background-color: #322f30; */
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    /* background-color: #322f30; */
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-gitlab, .fa-github, .fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    /* background-color: #322f30; */
+}
+.fa-gitlab:hover, .fa-github:hover, .fa-instagram:hover {
+    background-color: #131313;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    /* background-color: #322f30; */
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    /* background-color: #322f30; */
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
 }
 
-/* .hstcover::after {
-  content: "Hola";
-  background:rgba(159,  182,  205, 0.8);  
-  padding:0;
-  margin:0;
-  padding:0;
+@media all and (max-width: 40em) {
+  .fa-google-plus, .fa-facebook, .fa-rss {
+    display: none !important;
+  }
 }
- */
-.content-wrapper{
-  background:rgba(159,  182,  205, 0.9);
-  /* width:100%; */
-  /* height:100%; */
-  padding:0;
-  margin:0;
-  padding:0;
-  height:100vh;
-}
+
+/* Feature Boxes */
 
 .small_centered {
   display: flex;
@@ -44,7 +264,7 @@ a {
 main.small_centered, footer.small_centered {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
-  background: rgba(51,51,63,0.9); /*#ccc*/
+  /* background: rgba(51,51,63,0.9); /*#ccc*/ */
 
 }
 
@@ -60,44 +280,6 @@ main.small_centered, footer.small_centered {
   display: flex; 
   /* padding: 0.5em; */
   width: 100%;  
-}
-
-header.small_centered > div > div, footer.small_centered > div  {
-  /* background-color: #e3c; */
-  display: initial; 
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  border-width: 0;
-}
-
-header > div.hst_flex_item > div > h1, header > div.hst_flex_item > div > h2  {
-  margin: 5px 0;
-  padding: 0;
-}
-
-header.small_centered > div.hst_flex_item {
-  border-width: 0;
-}
-
-@media all and (min-width: 40em) {
-  .hst_flex_item > div {
-    width: 50%;
-  }
-
-.hst_flex_item { border-width: 1px 0 0 0 }
-.hst_flex_row_item_content { border-width:  1px 0 0 0  }
-
-}
-@media all and (min-width: 60em) {
-  .hst_flex_item > div {
-    width: 33.33%;
-  }
-
-.hst_flex_item { border-width: 1px 0 0 0 }
-.hst_flex_row_item_content { border-width:  1px 0 0 0  }
-
 }
 
 .hst_flex_row_item_content {
@@ -122,7 +304,35 @@ header.small_centered > div.hst_flex_item {
   border-color: rgba(255,255,255,.9);
 }
 
-.hst_flex_item { border-width: 2px  0   0  2px }
-.hst_flex_row_item_content { 
-  border-width:  0  2px 2px  0  
+
+@media all and (max-width: 40em) {
+  .hst_flex_item { border-width: 0 }
+  .hst_flex_row_item_content { border-width:  0  }
+  div.content {width: 100%;}
 }
+
+
+@media all and (min-width: 40em) {
+  .hst_flex_item > div {
+    width: 50%;
+  }
+
+  .hst_flex_item { border-width: 2px  0   0  2px }
+  .hst_flex_row_item_content { 
+    border-width:  0  2px 2px  0  
+  }
+
+  div.content {width: 100%;}
+
+
+}
+@media all and (min-width: 60em) {
+  .hst_flex_item > div {
+    width: 33.33%;
+  }
+
+  div.content {width: 100%;}
+
+
+}
+
