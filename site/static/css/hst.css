@@ -72,7 +72,7 @@ p {
   height: 46px;
   border-radius: 13px;
   border: 2px solid white;
-  bottom: 40px;
+  bottom: 52px;
   position: absolute;
   left: 50%;
   margin-left: -14px;
@@ -341,8 +341,19 @@ main {
 /* Widget Overrides */
 
 div#drift-widget-container > iframe#drift-widget[style] {
-  bottom: 80px !important;
+  bottom: 40px !important;
   /* right: 30px !important; */
 }
 
+.hideCalendly {
+  display: block;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px)
+and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait) {
+  .hideCalendly {
+    display: none;
+  }
+ /* STYLES GO HERE */
+}
 
