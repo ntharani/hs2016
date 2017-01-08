@@ -35,20 +35,6 @@
 			{{ partial "social.html" . }}
 			<hr>
 
-			<h2>Latest From the Blog</h2>
-
-		  {{- range first 2 .Data.Pages }}
-			  {{- if eq .Type "blog"}}
-	    		<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-					<p>{{ .Summary }}</p>
-				  {{ if .Truncated }}
-					  <div class="read-more-link">
-					    <a href="{{ .RelPermalink }}">Read More…</a>
-					  </div>
-				  {{end}}
-				{{- end -}}
-  		{{- end }}
-
 	<!-- 			<ul> 						
 					<li>Configure Blog Settings and first blog post - Hugo in 2017</li>
 					<li>Show exerpt from blog on large screen via a media query</li>
@@ -71,9 +57,32 @@
 	</div>
 	</div>
 
+	<div class="parent-container3">
+		<div class="container">
+			
+			<main class="">
+			<h2>Latest From the Blog</h2>
+
+		  {{- range first 2 .Data.Pages }}
+			  {{- if eq .Type "blog"}}
+	    		<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+					<p>{{ .Summary }}</p>
+				  {{ if .Truncated }}
+					  <div class="read-more-link">
+					    <a href="{{ .RelPermalink }}">Read More…</a>
+					  </div>
+				  {{end}}
+				{{- end -}}
+  		{{- end }}
+  		</main>
+			
+		</div>
+	</div>
+
 	<div class="parent-container">
 		<div class="container">
 			<main class="">
+
 			<h2 id="services">Services</h2>
 			<div class="hst_flex_item">
 			<div>

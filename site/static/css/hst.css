@@ -19,6 +19,7 @@ header {
 main {
   /* background: yellow; */
   flex: 1 0 auto;
+  padding-bottom: 2em;
 }
 
 footer {
@@ -30,6 +31,9 @@ p {
   hyphens: auto;
 }
 
+.homeblog {
+  /* background: linear-gradient(to bottom, #3f4c6b 0%,#3f4c6b 100%); /* W3C */ */
+}
 
 /* BG DIVs, Opacity Container Wrapper & Scroll Down for More */
 
@@ -48,8 +52,26 @@ p {
   background: url('../images/sdesk.jpg');
   /* background-attachment: fixed; breaks on IOS :( */
   background-size: cover;
-
 }
+
+.parent-container3 {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  /* background: linear-gradient(to bottom, #3f4c6b 0%,#3f4c6b 100%); /* W3C V1 */ 
+  /* background: linear-gradient(to bottom, #131313 0%,#3f4c6b 100%); /* W3C V2  */ 
+  background: #f7f7f7;  /* W3C V3  */  
+  color: #131313;
+  /* background-attachment: fixed; breaks on IOS :( */
+  background-size: cover;
+  padding: 0;
+}
+
+.parent-container3 .h1, .parent-container3 .h2, .parent-container3 .h3,.parent-container3 .h4, .parent-container3 .h5, .parent-container3 .h6, .parent-container3 a 
+ {
+  color: #131313;  
+}
+
 
 .parent-container-wrapper{
   display: flex;
@@ -264,8 +286,8 @@ ul.social-icons {
 /* Feature Boxes */
 
 main {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+/*   padding-top: 1.5em;
+  padding-bottom: 1.5em; */
   /* background: rgba(51,51,63,0.9); /*#ccc*/ */
 
 }
@@ -334,7 +356,6 @@ main {
   }
 
   div.content {width: 100%;}
-
 
 }
 
