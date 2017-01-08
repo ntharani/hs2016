@@ -8,6 +8,13 @@
 
 
 <body>
+
+<!-- 
+  <nav class="menu-opener">
+    <div class="menu-opener-inner"></div>
+  </nav>
+
+ -->
 	<div class="parent-container2">
 	<div class="parent-container-wrapper">
 	<div class="container">
@@ -18,11 +25,29 @@
 		<nav>
 			<a href="#services"><h4>Services</h3></a>
 			<a href="/about"><h4>About</h3></a>
-			<a href="#blog"><h4>Blog</h3></a>
+			<a href="/blog"><h4>Blog</h3></a>
 			<a href="" onclick="Calendly.showPopupWidget('https://calendly.com/nagib');return false;"><h4>Schedule time with me</h4></a>
 
 		</nav>
+
+
+
 			{{ partial "social.html" . }}
+			<hr>
+
+			<h2>Latest From the Blog</h2>
+
+		  {{- range first 2 .Data.Pages }}
+			  {{- if eq .Type "blog"}}
+	    		<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+					<p>{{ .Summary }}</p>
+				  {{ if .Truncated }}
+					  <div class="read-more-link">
+					    <a href="{{ .RelPermalink }}">Read More…</a>
+					  </div>
+				  {{end}}
+				{{- end -}}
+  		{{- end }}
 
 	<!-- 			<ul> 						
 					<li>Configure Blog Settings and first blog post - Hugo in 2017</li>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Strata</title>
+    <link>https://nagibtharani.com/blog/index.xml</link>
+    <description>Recent content in Blogs on Strata</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Jan 2017 10:04:42 -0800</lastBuildDate>
+    <atom:link href="https://nagibtharani.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Moving over to Hugo for my Blog</title>
+      <link>https://nagibtharani.com/blog/moving_over_to_hugo_for_my_blog/</link>
+      <pubDate>Sun, 08 Jan 2017 10:04:42 -0800</pubDate>
+      
+      <guid>https://nagibtharani.com/blog/moving_over_to_hugo_for_my_blog/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve had several false starts on blgging over the years. I usually get caught up in blogging for companies.&lt;/p&gt;
+
+&lt;p&gt;This year I made a commitment to blog for myself and be more active in branding myself online. I&amp;rsquo;ve chosen Hugo as the platform.&lt;/p&gt;
+
+&lt;p&gt;This will be the first in 3 part series on why I chose Hugo, and how to setup Hugo and in future, a retrospective on how Hugo is working out.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
