@@ -1,11 +1,11 @@
 +++
 date = "2017-01-08T10:04:42-08:00"
-title = "Moving over to Hugo for my Blog"
+title = "Moving over to Hugo"
 draft = false
 
 +++
 
-I've had several false starts on blgging over the years. I usually get caught up in blogging for companies. 
+I've had several false starts on blogging over the years. I usually get caught up in blogging for companies. 
 
 This year I made a commitment to blog for myself and be more active in branding myself online. I've chosen Hugo as the platform. 
 
