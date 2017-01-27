@@ -9,10 +9,6 @@
 <style>
 
 .parent-container {
-/*   display: flex;
-  justify-content: center;
-  flex-flow: row nowrap; */
-  /* min-height: 100vh; */
   padding: 1em calc(50% - 45em);
   margin: 0;
 }
@@ -20,41 +16,30 @@
 .v2 {
   min-height: 100vh;
   background: url('../images/sdesk.jpg');
-  /* background-attachment: fixed; breaks on IOS :( */
   background-size: cover;
 
 }
 
 .v3 {
-  /* background: linear-gradient(to bottom, #3f4c6b 0%,#3f4c6b 100%); /* W3C V1 */ 
-  /* background: linear-gradient(to bottom, #131313 0%,#3f4c6b 100%); /* W3C V2  */ 
   background: #f7f7f7;  /* W3C V3  */  
   color: #131313;
-  /* background-attachment: fixed; breaks on IOS :( */
   background-size: cover;
 }
 
 .v4 {
-  /* background: linear-gradient(to bottom, #3f4c6b 0%,#3f4c6b 100%); /* W3C V1 */ 
-  /* background: linear-gradient(to bottom, #131313 0%,#3f4c6b 100%); /* W3C V2  */ 
   background: red;  /* W3C V3  */  
   color: #131313;
-  /* background-attachment: fixed; breaks on IOS :( */
   background-size: cover;
 }
 
 
 .parent-container.v3 .h1, .parent-container.v3 .h2, .parent-container.v3 .h3,.parent-container.v3 .h4, .parent-container.v3 .h5, .parent-container.v3 .h6, .parent-container.v3 a 
  {
-  /* color: #131313; */
   color: #3594BA;
 }
 
 
 .wrapper{
-/*   display: flex;
-  justify-content: center;
-  flex-flow: row nowrap; */
   background:rgba(159,  182,  205, 0.8);
   min-height:100vh;
 }
@@ -258,5 +243,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
 
 	<link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+
+<script>
+  WebFont.load({
+    google: {
+      families: ['Lato']
+    }
+  });
+</script>
+
 </body>
 </html>
