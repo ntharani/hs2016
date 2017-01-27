@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Strata</title>
+    <title>Nagib Tharani</title>
     <link>https://nagibtharani.com/index.xml</link>
-    <description>Recent content on Strata</description>
+    <description>Recent content on Nagib Tharani</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Jan 2017 10:04:42 -0800</lastBuildDate>
     <atom:link href="https://nagibtharani.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Moving over to Hugo for my Blog</title>
+      <title>Moving over to Hugo</title>
       <link>https://nagibtharani.com/blog/moving_over_to_hugo_for_my_blog/</link>
       <pubDate>Sun, 08 Jan 2017 10:04:42 -0800</pubDate>
       
       <guid>https://nagibtharani.com/blog/moving_over_to_hugo_for_my_blog/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve had several false starts on blgging over the years. I usually get caught up in blogging for companies.&lt;/p&gt;
+      <description>&lt;p&gt;I&amp;rsquo;ve had several false starts on blogging over the years. I usually get caught up in blogging for companies.&lt;/p&gt;
 
 &lt;p&gt;This year I made a commitment to blog for myself and be more active in branding myself online. I&amp;rsquo;ve chosen Hugo as the platform.&lt;/p&gt;
 

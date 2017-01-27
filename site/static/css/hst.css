@@ -31,6 +31,10 @@ p {
   hyphens: auto;
 }
 
+
+a:hover {
+  text-decoration: underline;
+}
 /* BG DIVs, Opacity Container Wrapper & Scroll Down for More */
 
 div > h1, header > h1, div > h2, header > h2, main > h2  {
@@ -75,7 +79,8 @@ div > h1, header > h1, div > h2, header > h2, main > h2  {
 
 .parent-container.v3 .h1, .parent-container.v3 .h2, .parent-container.v3 .h3,.parent-container.v3 .h4, .parent-container.v3 .h5, .parent-container.v3 .h6, .parent-container.v3 a 
  {
-  color: #131313;  
+  /* color: #131313; */
+  color: #3594BA;
 }
 
 

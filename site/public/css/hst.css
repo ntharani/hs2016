@@ -2,14 +2,14 @@
 body {
     font-family: 'Lato', sans-serif;
     color: #FFF;
-    /* background: #322f30; */
-     background: rgba(51,51,63,0.9); /*#ccc */
-
+    background: #322f30;
+     /* background: rgba(51,51,63,0.9); /*#ccc */
+    /* background: #f7f7f7; */
     -webkit-font-smoothing: antialiased;
 }
 
 nav, header, main, footer {
-  padding: 0 10px;
+  padding: 0 1.5em;
 }
 
 header {
@@ -18,7 +18,8 @@ header {
 
 main {
   /* background: yellow; */
-  flex: 1 0 auto;
+  /* flex: 1 0 auto; */
+  /* padding-bottom: 2em; */
 }
 
 footer {
@@ -31,19 +32,30 @@ p {
 }
 
 
-/* BG DIVs, Opacity Container Wrapper & Scroll Down for More */
 
-.parent-container {
-  display: flex;
-  justify-content: center;
-  flex-flow: row nowrap;
-  /* min-height: 100vh; */
+a { 
+  color: #3594BA
 }
 
-.parent-container2 {
-  display: flex;
+a:hover {
+  text-decoration: underline;
+}
+/* BG DIVs, Opacity Container Wrapper & Scroll Down for More */
+
+div > h1, header > h1, div > h2, header > h2, main > h2  {
+  margin: 0;
+}
+
+.parent-container {
+/*   display: flex;
   justify-content: center;
-  flex-flow: row nowrap;
+  flex-flow: row nowrap; */
+  /* min-height: 100vh; */
+  padding: 1em calc(50% - 45em);
+  margin: 0;
+}
+
+.v2 {
   min-height: 100vh;
   background: url('../images/sdesk.jpg');
   /* background-attachment: fixed; breaks on IOS :( */
@@ -51,16 +63,36 @@ p {
 
 }
 
-.parent-container-wrapper{
-  display: flex;
+.v3 {
+  /* background: linear-gradient(to bottom, #3f4c6b 0%,#3f4c6b 100%); /* W3C V1 */ 
+  /* background: linear-gradient(to bottom, #131313 0%,#3f4c6b 100%); /* W3C V2  */ 
+  background: #f7f7f7;  /* W3C V3  */  
+  color: #131313;
+  /* background-attachment: fixed; breaks on IOS :( */
+  background-size: cover;
+}
+
+.v4 {
+  /* background: linear-gradient(to bottom, #3f4c6b 0%,#3f4c6b 100%); /* W3C V1 */ 
+  /* background: linear-gradient(to bottom, #131313 0%,#3f4c6b 100%); /* W3C V2  */ 
+  background: red;  /* W3C V3  */  
+  color: #131313;
+  /* background-attachment: fixed; breaks on IOS :( */
+  background-size: cover;
+}
+
+
+.parent-container.v3 .h1, .parent-container.v3 .h2, .parent-container.v3 .h3,.parent-container.v3 .h4, .parent-container.v3 .h5, .parent-container.v3 .h6, .parent-container.v3 a 
+ {
+  color: #131313;  
+}
+
+
+.wrapper{
+/*   display: flex;
   justify-content: center;
-  flex-flow: row nowrap;
+  flex-flow: row nowrap; */
   background:rgba(159,  182,  205, 0.8);
-  width:100%;
-  height:100%;
-  padding:0;
-  margin:0;
-  padding:0;
   min-height:100vh;
 }
 
@@ -129,23 +161,7 @@ p {
   
 /* Responsive Containers */
 
-.container {
-  display: flex;
-  flex-direction: column; 
-  align-items: stretch;
-}
 
-@media all and (min-width: 90.1em) {
-  .container { flex: 0 0 70%; /* background: #e3c; */ }
-}
-
-@media all and (min-width: 40.1em) and (max-width: 90em) {
-  .container { flex: 0 0 92%; /* background: #ccc; */ }
-}
-
-@media all and (max-width: 40em) {
-  .container { flex: 0 0 95%; /* background: #2c2; */ }
-}
 
 /* Social Stuff */
 
@@ -264,9 +280,9 @@ ul.social-icons {
 /* Feature Boxes */
 
 main {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-  /* background: rgba(51,51,63,0.9); /*#ccc*/ */
+/*   padding-top: 1.5em;
+  padding-bottom: 1.5em; */
+  /* background: rgba(51,51,63,0.9); /*#ccc*/
 
 }
 
@@ -334,7 +350,6 @@ main {
   }
 
   div.content {width: 100%;}
-
 
 }
 
