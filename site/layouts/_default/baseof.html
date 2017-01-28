@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+{{ partial "header.html" .}}
+
+  <!-- Blocks may include default content. -->
+
+<title>
+	{{ block "title" . }}
+
+		{{ if .IsHome }}
+		{{ else }}
+
+	  	{{ if .Title }} 
+	  		{{ .Title }} -
+			{{ end }} 
+		{{ end }}
+		
+		{{ .Site.Title }} 
+	{{ end }}
+</title>
+
+</head>
+
+<body>
+
+    <!-- Code that all your templates share, like a header -->
+
+    {{ block "main" . }}
+      <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+
+    <!-- More shared code, perhaps a footer -->
+</body>
+
+</html>
