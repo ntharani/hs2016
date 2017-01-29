@@ -24,9 +24,10 @@ paginate = 10
 [params.social]
 	twitter = "nagibtharani"
 	author = "nagibtharani"
-	facebook_admin = ""
+	facebook_admin = "771632441"
 	facebook_author = "nagib.tharani"
 	facebook = "nagib.tharani"
+	facebook_app_id = "1637249689915164"
 
 # Menu links that appear on the left sidebar
 [[menu.main]]
