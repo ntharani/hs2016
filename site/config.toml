@@ -19,6 +19,10 @@ paginate = 10
 	# Add custom assets with their paths relative to the static folder
 	custom_js   = []
 	custom_css  = []
+	organization_image = "logo.png"
+
+[params.social]
+	twitter = "@gohyperstatic"
 
 # Menu links that appear on the left sidebar
 [[menu.main]]
