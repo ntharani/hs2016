@@ -4,7 +4,7 @@ title = "Moving over to Hugo"
 keywords = ["static website generator","hugo"]
 description = "Moving over to Hugo for my website."
 draft = false
-image = "sdesk.jpg"
+image = "https://www.nagibtharani.com/images/sdesk.jpg"
 
 +++
 
