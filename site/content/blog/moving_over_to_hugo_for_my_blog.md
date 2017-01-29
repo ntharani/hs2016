@@ -4,6 +4,7 @@ title = "Moving over to Hugo"
 keywords = ["some","keywords"]
 description = "Why you should visit here"
 draft = false
+image = "sdesk.jpg"
 
 +++
 
