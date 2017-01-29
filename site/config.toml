@@ -22,7 +22,7 @@ paginate = 10
 	organization_image = "logo.png"
 
 [params.social]
-	twitter = "@gohyperstatic"
+	twitter = "gohyperstatic"
 
 # Menu links that appear on the left sidebar
 [[menu.main]]
