@@ -1,6 +1,8 @@
 +++
 date = "2017-01-08T10:04:42-08:00"
 title = "Moving over to Hugo"
+keywords = ["some","keywords"]
+description = "Why you should visit here"
 draft = false
 
 +++
