@@ -22,7 +22,11 @@ paginate = 10
 	organization_image = "logo.png"
 
 [params.social]
-	twitter = "gohyperstatic"
+	twitter = "nagibtharani"
+	author = "nagibtharani"
+	facebook_admin = ""
+	facebook_author = "nagib.tharani"
+	facebook = "nagib.tharani"
 
 # Menu links that appear on the left sidebar
 [[menu.main]]
