@@ -1,5 +1,5 @@
 +++
-title = "about"
+title = "About Me"
 draft = false
 date = "2016-11-29T13:59:02-08:00"
 
@@ -22,11 +22,11 @@ In previous roles, and depending on the size of the organization I have been the
 - Product Management (Working with, engaging and adapting products for international markets). With regards to International marketing print initiatives, I love explaining the A-Series of paper formats.
 - International Expansion - Greenfield operations for companies seeking to expand, taking into account legal, tax, regulatory, business development and marketing aspects. I work with governmental inward investment teams and academic institutions to help companies take advantage of in country resources effectively.
 - International Business Development - Closely tied with the above, but specifically about driving new business and engagement models from strategy and partnership programs, to internationally tailored marketing outreach.
-- Program (Programme in the UK, it's not a spelling error) and Project Management
+- Program ('Programme' in the UK) and Project Management
 - Business Operations - Typically for smaller companies, helping you start your business properly - from HR and accounting to overall governance.  I pride myself on using best of breed SaaS tools.
 
-An executive that has solid experience across many disciplines can manage multidisciplinary teams more effectively.
+While I'm very proud of my generalist skill set, it fails the resume test horribly as we tend to look for domain and functional specialists, so you need to be able to tailor your content appropriately and demonstrate depth of expertise in a give area. 
 
-My latest hobby project is TailorCV.com - a free service to help you build custom CV’s and track your achievements over time. I built this to scratch my own itch as much as anything. 
+As such, my latest hobby project is [TailorCV.com](http://tailorcv.com) - a free service to help you build custom CV’s and track your achievements over time. I built this to scratch my own itch as much as anything. 
 
-Get in touch.
+Get in touch with me using the chat widget below.

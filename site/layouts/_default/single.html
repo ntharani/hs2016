@@ -5,16 +5,18 @@
 <div class="container">
 	<header></header>
 	<main>
+		<article>
 		  <h1>{{ .Title }}</h1>
 		  <h6>{{ .Date.Format "Mon, Jan 2, 2006" }}</h6>
 		  {{ .Content }}
+	  </article>
 	</main>
 	<footer></footer>
 </div>
 </div>
 
 
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/hst.css" type="text/css" media="screen,projection"/>
+  <link rel="stylesheet" href="/css/hst.css" type="text/css" media="screen,projection"/>
 
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />

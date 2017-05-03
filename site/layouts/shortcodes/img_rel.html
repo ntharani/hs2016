@@ -1,0 +1,8 @@
+{{/* https://github.com/spf13/hugo/issues/751 */}}
+
+{{ $ctx := . }}
+<div style="display:flex;justify-content:center;align-items:center;flex-flow:row wrap;">
+{{ range .Params }}	
+	<img src="{{ $ctx.Site.BaseURL }}images/{{ . }}" style="flex-basis:auto;min-width: auto; max-width:100%;">
+{{ end }}
+</div>
