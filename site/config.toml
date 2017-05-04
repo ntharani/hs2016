@@ -2,6 +2,7 @@ baseurl = "https://www.nagibtharani.com/"
 languageCode = "en-us"
 title = "Nagib Tharani"
 disqusShortname = "wwwnagib"
+
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
