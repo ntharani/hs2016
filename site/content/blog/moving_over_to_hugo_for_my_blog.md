@@ -3,8 +3,9 @@ date = "2017-01-08T10:04:42-08:00"
 title = "Moving over to Hugo"
 keywords = ["static website generator","hugo"]
 description = "Moving over to Hugo for my website."
+removecomments = false
 draft = false
-image = "https://www.nagibtharani.com/images/sdesk.jpg"
+images = [""]
 
 +++
 

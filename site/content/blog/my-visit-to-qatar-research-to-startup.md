@@ -1,14 +1,15 @@
 +++
 date = "2017-05-03T14:57:50-07:00"
-description = "Why you should visit here"
+description = "A Trip to Doha, Qatar to explore Technology, Research & Commercialization Initiatives."
 draft = false
 images = ["afterpres.jpeg"]
+removecomments = false
 keywords = ["qatar","commercialization"]
 title = "My Visit to Doha, Qatar - An EIR's perspective"
 
 +++
 
-There's nothing like a 15 hr plane ride with an arbitrary laptop ban to help you compose your thoughts for a blog post on paper. If you do happen to be travelling to the US from that region, plan on arriving at your gate early as they have to pack your laptop at the gate. If you have a transfer when you land in the US you should also add some extra time to get your laptop.
+There's nothing like a 15 hour plane ride with an arbitrary laptop ban to help you compose your thoughts for a blog post. If you do happen to be travelling to the US from that region, plan on arriving at your gate early as they have to pack your laptop at the gate. If you have a transfer when you land in the US you should also add some extra time to get your laptop.
 
 I was invited to attend an inaugural event in Doha called the Research to Startup Program (RTSP) by the Qatar Science and Technology Park (QSTP). The event was about looking at opportunities for the potential commercialization of technology developed at the Qatar Computing Research Institute (QCRI) alongside a peer group of entrepreneurs and amazing mentors from all over the world.
 <!-- {{< img_abs "IMG_0691.jpg">}} --><!-- {{< img_abs "IMG_0696.jpg">}} -->
@@ -20,7 +21,7 @@ In the week we were there a round-about had been torn down and traffic lights ha
 
 On the last evening after presentations we walked over [Souq Waqif](https://www.visitqatar.qa/discover/tourist-hotspots/souq-waqif.html) and even there the cross walks had just been installed and were not yet operational so you had to tread carefully across the street. 
 
-What I found most amusing was firing up Google Maps or Uber. Roads were completely missing and distance estimates would shift for Uber frequently from 1min to 15 and eventually to 7min in short order. I definitely recommend using Waze over there. I've never had a hard time getting a sense of direction about where I am in a city, but after a week there I was still disoriented not really knowing north from south. You'd also think the cost of petrol would be extremely cheap, but it turned out be about $2 per gallon.
+What I found most amusing was firing up Google Maps or Uber. Roads were completely missing and distance estimates would shift for Uber frequently from 1min to 15 and eventually to 7min in short order. I definitely recommend using Waze over there. I've never had a hard time getting a sense of direction about where I am in a city, but after a week there I was still disoriented not really knowing north from south. You'd also think the cost of petrol would be extremely cheap, but it turned out to be about $2 per gallon.
 
 Having lived in both the UK and the US, some of the malls in Qatar have a combination of shops and eateries you'd only expect to see in one or the other. Yet in Qatar, I saw both sitting side by side. Not having been back to the UK in a while, it was oddly comforting to see a Boots chemist there. 
 
@@ -51,7 +52,6 @@ The last day was an opportunity to see the sites around Qatar including 'Dune Ba
 ![dune2](dune2.jpeg)
 ![camel](camel.jpg)
 ![beach1](beach1.jpeg)
-
 
 Overall the week was wonderful, our hosts were extremely gracious and conversations with both the EIRs and mentors was thought provoking. I've made friends I'll have for a lifetime.
 

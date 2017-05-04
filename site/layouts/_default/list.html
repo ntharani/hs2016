@@ -5,6 +5,8 @@
 <div class="container">
 	<header></header>
 	<main>
+			<p><a href="{{.Site.BaseURL}}">Home</a></p>
+			<hr>
 		  <h1>{{ .Title | singularize}}</h1>
 
 		  {{- range first 10 .Data.Pages }}

@@ -12,6 +12,8 @@ paginate = 10
   # information about you and your website.
 	name = "Nagib Tharani"
 	description = "My Personal Website"
+	useDisqus = true
+
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
