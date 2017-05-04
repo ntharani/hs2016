@@ -12,6 +12,7 @@
 		  <h6>{{ .Date.Format "Mon, Jan 2, 2006" }}</h6>
 		  {{ .Content }}
 	  </article>
+
 {{if and .Site.Params.UseDisqus (not .Params.removecomments) }}
 <div id="disqus_thread"></div>
 <script type="text/javascript">

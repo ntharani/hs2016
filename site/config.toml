@@ -1,7 +1,7 @@
 baseurl = "https://www.nagibtharani.com/"
 languageCode = "en-us"
 title = "Nagib Tharani"
-disqusShortname = "ntharani"
+disqusShortname = "wwwnagib"
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
@@ -13,8 +13,6 @@ paginate = 10
 	name = "Nagib Tharani"
 	description = "My Personal Website"
 	useDisqus = true
-	disqusShortname = "wwwnagib"
-
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
