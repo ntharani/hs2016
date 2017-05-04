@@ -13,7 +13,6 @@
 		  {{ .Content }}
 	  </article>
 
-{{if and .Site.Params.UseDisqus (not .Params.removecomments) }}
 <div id="disqus_thread"></div>
 <script type="text/javascript">
 
@@ -21,6 +20,8 @@
     // Don't ever inject Disqus on localhost--it creates unwanted
     // discussions from 'localhost:1313' on your Disqus account...
 
+    if (window.location.hostname == "localhost")
+    return;
 
 
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -34,7 +35,6 @@
 	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 	<a href="http://disqus.com/" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
-{{ end }}
 	</main>
 	<footer></footer>
 </div>
