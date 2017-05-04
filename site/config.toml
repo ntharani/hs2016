@@ -13,6 +13,7 @@ paginate = 10
 	name = "Nagib Tharani"
 	description = "My Personal Website"
 	useDisqus = true
+	disqusShortname = "wwwnagib"
 
 
 	# Format dates with Go's time formatting
