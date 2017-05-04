@@ -2,7 +2,7 @@
 date = "2017-05-03T14:57:50-07:00"
 description = "Why you should visit here"
 draft = false
-image = "/afterpres.jpeg"
+images = ["afterpres.jpeg"]
 keywords = ["qatar","commercialization"]
 title = "My Visit to Doha, Qatar - An EIR's perspective"
 
