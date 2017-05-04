@@ -37,7 +37,7 @@ main {
   /* padding-bottom: 2em; */
 }
 
-article img {display:block;margin:0.5em auto;max-width:100%;}
+article p img, article p img + em {display:block;margin:0.5em auto;max-width:100%;text-align: center;}
 
 
 footer {
@@ -105,7 +105,7 @@ div > h1, header > h1, div > h2, header > h2, main > h2  {
 .v4 {
   /* background: linear-gradient(to bottom, #3f4c6b 0%,#3f4c6b 100%); /* W3C V1 */ 
   /* background: linear-gradient(to bottom, #131313 0%,#3f4c6b 100%); /* W3C V2  */ 
-  background: red;  /* W3C V3  */  
+  background: lightblue ;  /* W3C V3  */  
   color: #131313;
   /* background-attachment: fixed; breaks on IOS :( */
   background-size: cover;

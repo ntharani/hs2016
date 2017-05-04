@@ -2,7 +2,7 @@
 title = "About Me"
 draft = false
 date = "2016-11-29T13:59:02-08:00"
-removecomments = false
+removecomments = true
 
 +++
 
