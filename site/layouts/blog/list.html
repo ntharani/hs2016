@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+
+<div class="parent-container">
+<div class="container">
+	<header></header>
+	<main>
+			<p><a href="{{.Site.BaseURL}}">Home</a></p>
+			<hr>
+		  <h1>{{ .Title | singularize}}</h1>
+
+		  {{- range first 10 .Data.Pages }}
+    		<h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+
+				<p>{{ .Summary }}</p>
+			  {{ if .Truncated }}
+				  <div class="read-more-link">
+				    <a href="{{ .RelPermalink }}">Read More…</a>
+				  </div>
+			  {{end}}
+
+  		{{- end }}
+	</main>
+	<footer></footer>
+</div>
+</div>
+
+
+
+  <link rel="stylesheet" href="/css/hst.css" type="text/css" media="screen,projection"/>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+
+{{ end }}
