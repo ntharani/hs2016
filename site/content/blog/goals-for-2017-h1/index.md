@@ -5,7 +5,7 @@ draft = false
 image = ""
 keywords = ["Goals","2017", "React", "GraphQL", "Philosophy", "Front-End","Full-Stack"]
 removecomments = false
-title = "Learing Goals for 2017"
+title = "Learning Goals for 2017"
 
 +++
 
