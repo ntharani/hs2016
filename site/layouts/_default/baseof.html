@@ -131,7 +131,7 @@
   <!-- Output all taxonomies as schema.org keywords -->
   <meta itemprop="keywords" content="{{ range $plural, $terms := .Site.Taxonomies }}{{ range $term, $val := $terms }}{{ printf "%s," $term }}{{ end }}{{ end }}" />
 
-{{ end }}
+{{ end }} <!-- End CTX Permalink to expose context for accessing Permalink instead of local context. For accessing images at Permalink/image.png instead of AbsURL/images/xyz-->
 
 
 </head>
